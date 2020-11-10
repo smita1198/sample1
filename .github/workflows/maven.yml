@@ -21,4 +21,4 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Maven
-      run: mvn -f  package https://github.com/smita1198/sample1/blob/main/miniproject/pom.xml  <goals> ...
+      run: mvn -f  package sample1/blob/main/miniproject/pom.xml  
